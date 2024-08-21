@@ -9,7 +9,7 @@
 # Tableau de comparaison GET et POST 
 
 | GET | POST |
-|-----|------|
+|:-----:|:------:|
 | Les paramètres sont enregistrés    | Les paramètres ne sont pas enregistrés     |
 | Plus efficace que POST    |  Moins efficace que GET    |
 | La requête GET n'est pas sécurisé car les données sont exposées    |  La requête POST est plus sécurisé car les données ne sont pas exposées    |
