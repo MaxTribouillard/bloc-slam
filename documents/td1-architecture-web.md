@@ -20,13 +20,13 @@
 
 # Sans etat :
 
-On dit que HTTP est un protocole sans état car chaque requête est indépendante est ne concerne pas les requête antérieures.
+On dit que HTTP est un protocole sans état car chaque requête est indépendante et ne concerne pas les requête antérieures.
 
 # Décomposition d'une URL :
 
 Exemple d'URL : https://www.ionos.fr 
 
-Dans cette URL, HTTPS désigne le type de protocole utilisé, puis "www" qui estr un système d'hypertext public qui nous permet de naviguer sur différentes page d'Internet.
+Dans cette URL, HTTPS désigne le type de protocole utilisé, puis "www" qui est un système d'hypertext public qui nous permet de naviguer sur différentes page d'Internet.
 Et pour finir "ionos.fr" est le nom de domaine du site internet.
 
 # Codes de réponses HTTP
