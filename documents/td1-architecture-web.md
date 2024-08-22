@@ -28,3 +28,12 @@ Exemple d'URL : https://www.ionos.fr
 
 Dans cette URL, HTTPS désigne le type de protocole utilisé, puis "www" qui estr un système d'hypertext public qui nous permet de naviguer sur différentes page d'Internet.
 Et pour finir "ionos.fr" est le nom de domaine du site internet.
+
+# Codes de réponses HTTP
+
+## Les réponses informatives 
+***
+
+1) Les réponses informatives : Elles servent à informer le client du statut de ses reuquêtes
+2) Réponses de succès et d'erreur : Indique si la requête est un échec ou un succès.
+3) Message de redirection  : Intervient dès qu'une requête est modifié, redirigé
