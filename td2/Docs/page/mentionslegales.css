@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(41, 39, 48);
+    color: white;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+h1{
+    margin-bottom: 100px;
+}
+
+.main{
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
