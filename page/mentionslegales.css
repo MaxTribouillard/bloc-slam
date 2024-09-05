@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(41, 39, 48);
+    color: white;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+
+h2 {
+    color: rgb(3, 95, 182)
+}
+
+h3 {
+    color: rgb(0, 153, 255);
+    font-size: 15px;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+.menu {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.content{
+    margin-right: 1000px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+a {
+    color: white;
+}
