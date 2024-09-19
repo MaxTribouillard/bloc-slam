@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(41, 39, 48);
+    color: white;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    background-color: rgba(129, 129, 129, 0.164);
+}
+
+a:hover{
+    color: rgb(182, 165, 165);
+}
+
+ul {
+    background-color: rgba(129, 129, 129, 0.164);
+}
+
+h2 {
+    background-color: rgba(129, 129, 129, 0.164);
+}
+
+.accueil {
+    position: absolute;
+    margin-top: 5px;
+    color: white;
+    margin-left: 10px;
+}
+
+
+a {
+    color: white;
+}
+
+.content {
+    text-align: left;
+    justify-content: left;
+    margin-left: 25%;
+    margin-top: 70px;
+    margin-right: 25%;
+}
+
+
+
+span {
+    color: rgb(199, 135, 18);
+}
+
+.cut {
+    border-top: solid white 0.5px;
+    border-bottom: solid white 0.5px;
+    margin-top: 45px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
+.chiffre {
+    list-style-type: decimal;
+}

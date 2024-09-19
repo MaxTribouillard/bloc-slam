@@ -4,7 +4,6 @@ body {
     font-family: "Alata", sans-serif;
     font-weight: 400;
     font-style: normal;
-    scroll-behavior: smooth;
 }
 
 .accueil {
@@ -34,6 +33,7 @@ li {
     list-style-type: none;
     display: inline;
     padding: 10px;
+    scroll-behavior: smooth;
 }
 
 a:hover{
@@ -62,5 +62,6 @@ a:hover{
 
 a {
     color: white;
+    scroll-behavior: smooth;
 }
 
