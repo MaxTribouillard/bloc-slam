@@ -11,21 +11,11 @@ h1 {
     text-align: center;
 }
 
-p {
-    background-color: rgba(129, 129, 129, 0.164);
-}
-
 a:hover{
     color: rgb(182, 165, 165);
 }
 
-ul {
-    background-color: rgba(129, 129, 129, 0.164);
-}
 
-h2 {
-    background-color: rgba(129, 129, 129, 0.164);
-}
 
 .accueil {
     position: absolute;
@@ -64,4 +54,28 @@ span {
 
 .chiffre {
     list-style-type: decimal;
+}
+
+.gris1{
+    background-color: rgba(129, 129, 129, 0.164);
+}
+
+.gris2{
+    background-color: rgba(129, 129, 129, 0.164);
+}
+
+.gris3{
+    background-color: rgba(129, 129, 129, 0.164);
+}
+
+.gris4{
+    background-color: rgba(129, 129, 129, 0.164);
+}
+
+.gris5{
+    background-color: rgba(129, 129, 129, 0.164);
+}
+
+.gris6{
+    background-color: rgba(129, 129, 129, 0.164);
 }
