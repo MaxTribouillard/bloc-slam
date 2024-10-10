@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(41, 39, 48);
-    color: white;
+    background-color: white;
+    color: rgb(83, 83, 83);
     font-family: "Alata", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -9,23 +9,24 @@ body {
 .accueil {
     position: absolute;
     margin-top: 5px;
-    color: white;
+    color: grey;
     margin-left: 10px;
 }
 
 h1 {
     margin-bottom: 20px;
-    margin-left: 775px;
+    margin-left: 425px;
     position: relative;
+    padding-bottom: 35px;
 }
 
 
 h2 {
-    color: rgb(3, 95, 182);
+    color: rgb(55, 148, 51);
 }
 
 h3 {
-    color: rgb(0, 153, 255);
+    color: rgb(55, 148, 51);
     font-size: 15px;
 }
 
@@ -41,27 +42,24 @@ a:hover{
 }
 
 .menu {
-    margin-bottom: 60px;
-    margin-top: 40px;
+    /* margin-bottom: 60px; */
+    /* margin-top: 40px; */
     font-size: 20px;
-    margin-left: 600px;
-    margin-right: 650px;
+    margin-left: 375px;
+    /* margin-right: 650px; */
     padding-bottom: 60px;
-    border-bottom: solid 1px ;
 }
 
 .content{
     margin-left: 425px;
-    margin-top: 70px;
+    /* margin-top: 70px; */
     margin-right: 500px;
-    background-color: rgb(63, 63, 63);
-    padding: 100px;
-    border-radius: 50px;
+    /* padding: 100px; */
     box-shadow: 0px 0px 10px 5px white;
 }
 
 a {
-    color: white;
+    color: grey;
     scroll-behavior: smooth;
 }
 
