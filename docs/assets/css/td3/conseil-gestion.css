@@ -10,12 +10,14 @@ body {
 
 .img{
     width: 30%;
+    display: flex;
 }
 
 .firstBox{
-    text-align: center;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: rgb(226, 83, 0);
     margin-left: 300px;
     margin-right: 300px;
