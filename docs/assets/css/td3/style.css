@@ -1,7 +1,25 @@
 body {
-    background-image: url(df-min.jpg);
-    color: white;
+    background-color: rgb(77, 77, 77);
+    color: rgb(255, 255, 255);
     font-family: "Alata", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin-left: 350px;
+    margin-right: 350px;
 }
+
+.img{
+    width: 30%;
+}
+
+.firstBox{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 83, 0);
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
