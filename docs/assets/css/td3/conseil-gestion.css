@@ -1,12 +1,26 @@
 body {
     background-color: rgb(168, 168, 168);
-    background-image: url("df-min.jpg");
+    /* background-image: url("df-min.jpg"); */
     color: rgb(255, 255, 255);
     font-family: "Alata", sans-serif;
     font-weight: 400;
     font-style: normal;
     /* margin-left: 350px;
     margin-right: 350px; */
+}
+
+.helpFont{
+    
+}
+
+.licence{
+    font-family: "Quicksand", sans-serif;
+}
+
+.mainTitle{
+    font-size: 45px;
+    align-items: center;
+    text-align: center;
 }
 
 .test{
@@ -20,11 +34,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(226, 83, 0);
+    background-color: rgb(247, 120, 47);
     margin-left: 300px;
     margin-right: 300px;
     border-radius: 30px;
-    padding: 5px;
+    padding: 15px;
     height: 250px;
     width: 600px;
     box-shadow: 0px 10px 20px 1px black;
@@ -34,8 +48,8 @@ body {
     color: black;
     background-color: white;
     width: 250px;
-    height: 300px;
-    padding: 10px;
+    height: 350px;
+    padding: 20px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -54,3 +68,32 @@ body {
     margin-bottom: 5px;
 }
 
+.img{
+    width: 85px;
+}
+
+.textCard{
+    font-size: 15px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    width: 60%;
+    margin-top: 1100px;
+}
+
+.imgBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer {
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
