@@ -7,6 +7,7 @@ body {
     font-style: normal;
     /* margin-left: 350px;
     margin-right: 350px; */
+    margin: auto;
 }
 
 .helpFont{
@@ -35,9 +36,8 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: rgb(247, 120, 47);
-    margin-left: 300px;
-    margin-right: 300px;
     border-radius: 30px;
+    margin-top: 20px;
     padding: 15px;
     height: 250px;
     width: 600px;
@@ -62,7 +62,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    margin-top: 500px;
+    margin-top: 550px;
 }
 
 .titleCard{
@@ -84,7 +84,7 @@ body {
     position: absolute;
     z-index: -1;
     width: 70%;
-    padding-top: 1100px;
+    padding-top: 1250px;
 }
 
 .imgBox{
@@ -94,11 +94,14 @@ body {
 
 }
 
-/* .footer {
+.footer {
     padding-bottom: 30px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     background-color: rgb(32, 32, 32);
     color: white;
-} */
+    font-family: "Quicksand", sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+}
