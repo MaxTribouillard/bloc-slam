@@ -50,6 +50,7 @@ body {
     width: 250px;
     height: 350px;
     padding: 20px;
+    margin: 20px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -58,10 +59,10 @@ body {
 
 .cardBlock{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
-    padding: 5px;
-    margin-top: 200px;
+    margin-top: 500px;
 }
 
 .titleCard{
@@ -82,8 +83,8 @@ body {
     justify-content: center;
     position: absolute;
     z-index: -1;
-    width: 60%;
-    margin-top: 1100px;
+    width: 70%;
+    padding-top: 1100px;
 }
 
 .imgBox{
@@ -93,7 +94,11 @@ body {
 
 }
 
-.footer {
+/* .footer {
+    padding-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
     background-color: rgb(32, 32, 32);
     color: white;
-}
+} */
