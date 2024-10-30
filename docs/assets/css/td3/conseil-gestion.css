@@ -5,14 +5,14 @@ body {
     font-family: "Alata", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 350px;
-    margin-right: 350px;
+    /* margin-left: 350px;
+    margin-right: 350px; */
 }
 
-.img{
-    width: 100%;
+.test{
     display: flex;
-    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .firstBox{
@@ -26,6 +26,31 @@ body {
     border-radius: 30px;
     padding: 5px;
     height: 250px;
+    width: 600px;
     box-shadow: 0px 10px 20px 1px black;
+}
+
+.cardBox{
+    color: black;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 20px 1px black;
+}
+
+.cardBlock{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 200px;
+}
+
+.titleCard{
+    margin-bottom: 5px;
 }
 
