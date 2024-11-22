@@ -1,0 +1,114 @@
+body {
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.headerbar {
+    display: flex;
+    padding-top: 35px;
+    background-image: url("Documents Web-arena About-us/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 35px;
+}
+
+.logo {
+    margin-left: 200px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li {
+    margin-left: 10px;
+}
+
+ul {
+    margin-left: 700px;
+}
+
+a {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    border-top: solid white 3px;
+    padding-top: 48px;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border-bottom: solid 4px #5CAAC9;
+    padding-bottom: 50px;
+    margin-left: 800px;
+    margin-right: 800px;
+}
+
+.text {
+    display: flex;
+    text-align: center;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.button {
+    margin-left: 905px;
+    background-color: #E6EDFD;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.button:hover {
+    background-color: #d1dfff;
+}
+
+.partner {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.partner {
+display: inline;
+margin-left: 150px;
+}
+
+.footer {
+    padding-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url("Documents Web-arena About-us/header-bg.jpg");
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+}
