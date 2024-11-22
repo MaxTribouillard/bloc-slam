@@ -4,11 +4,44 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-.navbar {
-    padding-top: 25px;
+.headerbar {
+    display: flex;
+    padding-top: 35px;
     background-image: url("Documents Web-arena About-us/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 35px;
 }
 
 .logo {
-    margin-left: 50px;
+    margin-left: 200px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li {
+    margin-left: 10px;
+}
+
+ul {
+    margin-left: 700px;
+}
+
+a {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
 }
