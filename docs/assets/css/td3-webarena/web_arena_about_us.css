@@ -74,5 +74,41 @@ a:hover {
     color: black;
     padding: 20px;
     border-radius: 10px;
-    border-color: #D8DEF4;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.button:hover {
+    background-color: #d1dfff;
+}
+
+.partner {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.partner {
+display: inline;
+margin-left: 150px;
+}
+
+.footer {
+    padding-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
 }
