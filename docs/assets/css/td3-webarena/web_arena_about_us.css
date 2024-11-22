@@ -45,3 +45,34 @@ a {
     padding-right: 20px;
     text-decoration: none;
 }
+
+a:hover {
+    border-top: solid white 3px;
+    padding-top: 48px;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border-bottom: solid 4px #5CAAC9;
+    padding-bottom: 50px;
+    margin-left: 800px;
+    margin-right: 800px;
+}
+
+.text {
+    display: flex;
+    text-align: center;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.button {
+    margin-left: 905px;
+    background-color: #E6EDFD;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #D8DEF4;
+}
