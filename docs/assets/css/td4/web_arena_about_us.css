@@ -1,0 +1,14 @@
+body {
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    padding-top: 25px;
+    background-image: url("Documents Web-arena About-us/header-bg.jpg");
+}
+
+.logo {
+    margin-left: 50px;
+}
