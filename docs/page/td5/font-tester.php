@@ -15,8 +15,14 @@ echo "<br><a href='font-tester.php?color=green&size=30&message=Ceci est un font-
 echo "<br><a href='font-tester.php?color=blue&size=50&message=Ceci est un font-tester'>Font tester : Vert, Taille : 30, Message : Ceci est un font-tester</a>";
 
 
-echo "<div><style>.font{color:".$_GET['color'].";font-size: ".$_GET['size']."}</style>
-                <p class='font'>".$_GET["message"]."</p></div>"
+echo "<div><style>.font{color:".$_GET['color'].";font-size: ".$_GET['size']."}</style><p class='font'>".$_GET["message"]."</p></div>";
+
+
+// MESSAGE D'ERREUR
+
+if ($_GET["color"] != "blue" && $_GET["color"] && $_GET['color'] != "green" && $_GET["color"] != "red") {
+    echo "<h1>ERREUR DANS LE CHAMP : COLOR</h1>";
+}
 
 // JUSQU'ICI NOUS POUVONS MODIFIER LES TAILLES ET LES COULEURS SEULEMENT EN MODIFIANT L'URL
 //
