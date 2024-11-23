@@ -9,10 +9,8 @@
     
 <?php
 
-$message = "test"
 
 
 ?>
-<p> $message</p>
 </body>
 </html>
