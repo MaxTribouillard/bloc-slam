@@ -28,16 +28,16 @@ if ($_GET["color"] != "blue" && $_GET["color"] && $_GET['color'] != "green" && $
 //
 //----------------------------------------------------------------------------------
 //
-// MAINTENANT ON AJOUTE UN FORMULAIRE POUR PLUS DE PERSONNALISATION
+// MAINTENANT ON AJOUTE UN FORMULAIRE POUR PLUS DE PERSONNALISATION : METHODE GET
 
-echo "<form>";
+echo "<form method='GET' action='font-tester.php'>";
 echo "<label for='color'>Choose a color</label>";
 echo "<input type='text' id='color' placeholder='Color' name='color' aria-placeholder='Choose a color'>";
 echo "<label for='size'>Choose a size</label>";
 echo "<input type='text' id='size' name='size' placeholder='Choose a size'>";
 echo "<label for='message'>Message</label>";
-echo "<input type='text' id='message' name='message' placeholder='Type a mesage'>";
-echo "<input type='submit' id='send' name='send' value='Envoyer' href='font-tester.php'>";
+echo "<input type='text' id='message' name='message' placeholder='Type a message'>";
+echo "<input type='submit' id='send' name='send' value='Envoyer'>";
 echo "</form>";
 
 
