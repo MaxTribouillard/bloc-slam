@@ -1,0 +1,18 @@
+/* body {
+    background-color: rgb(168, 168, 216);
+} */
+
+#boutonRouge{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: 55%;
+}
