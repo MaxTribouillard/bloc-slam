@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b0f74cf-292b-4a06-9af3-293c2ecfcf8c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/page/td5/Lorem-ipsum-gen.php" beforeDir="false" afterPath="$PROJECT_DIR$/docs/page/td5/Lorem-ipsum-gen.php" afterDir="false" />
-    </list>
+    <list default="true" id="1b0f74cf-292b-4a06-9af3-293c2ecfcf8c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +71,7 @@
       <workItem from="1732383246901" duration="243000" />
       <workItem from="1732383493126" duration="9530000" />
       <workItem from="1732454379499" duration="2193000" />
-      <workItem from="1732824805332" duration="7280000" />
+      <workItem from="1732824805332" duration="7338000" />
     </task>
     <servers />
   </component>
