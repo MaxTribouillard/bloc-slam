@@ -1,7 +1,20 @@
-function backgroundRed() {
-    document.body.style.backgroundColor = 'red';
+// EXERCICE 1
+
+let boutonRouge = document.getElementById('rouge'); // Par id
+let boutonVert = document.getElementById('vert') // Par id également
+
+// fonction pour choisir plus faciliment la couleur et éviter les répétitions
+
+function backgroundColor(color) {
+    document.body.style.backgroundColor = color;
 }
 
-document.getElementById('boutonRouge').addEventListener("click", function(){
-    console.log('toto')
+boutonRouge.addEventListener("click", function(){
+    backgroundColor('red');
 })
+boutonVert.addEventListener("click", function(){
+    backgroundColor('green');
+})
+
+// EXERCICE 2
+
