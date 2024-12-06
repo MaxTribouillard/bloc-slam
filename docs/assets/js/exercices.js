@@ -21,16 +21,24 @@ boutonVert.addEventListener("click", function(){
 function addElementToList(){
 
     
-    var info = document.getElementById('info');
-    var addValue = info.value.trim();
+    let info = document.getElementById('info');
+    let addValue = info.value;
 
         if(addValue != ""){
-
             var list = document.getElementById("list");
             let li = document.createElement('li');
             li.textContent = addValue;
             list.appendChild(li);
-
+        }
+        else{
+            var p = document.getElementById('alert')
+            let alert = document.createElement('p');
+            alert.textContent = 'Veuillez saisir du texte';
+            p.appendChild(alert);
         }
 }
+
+// EXERCICE 3
+
+
     
