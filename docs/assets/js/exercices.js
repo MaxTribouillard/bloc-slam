@@ -64,3 +64,7 @@ elementMouse.addEventListener("mouseover", function(){
     alert('mouse over déclenché')
 })
 
+let horloge = document.getElementById('horloge')
+
+let date = new Date();
+
