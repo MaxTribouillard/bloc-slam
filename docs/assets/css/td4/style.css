@@ -1,6 +1,7 @@
-/* body {
+body {
     background-color: rgb(168, 168, 216);
-} */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 #boutonRouge{
     display: flex;
@@ -27,3 +28,8 @@
 .button:hover{
     opacity: 55%;
 }
+
+button {
+    padding: 20px;
+}
+
