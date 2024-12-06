@@ -36,3 +36,8 @@ button {
 #info {
     height: 50px;
 }
+
+.addition {
+    display: flex;
+    
+}

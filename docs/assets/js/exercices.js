@@ -41,4 +41,13 @@ function addElementToList(){
 // EXERCICE 3
 
 
-    
+    function addition(){
+        
+        firstNumber= document.getElementById('firstNumber');
+        secondNumber = document.getElementById('secondNumber');
+
+        var r = document.getElementById('resultat');
+        let resultat = Number(firstNumber.value)+Number(secondNumber.value);
+        r.textContent = "Résultat : "+resultat;
+
+    }
