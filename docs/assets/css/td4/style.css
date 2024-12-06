@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(168, 168, 216);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#boutonRouge{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#boutonVert{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: 55%;
+}
+
+button {
+    padding: 20px;
+}
+
+#info {
+    height: 50px;
+}
+
+.addition {
+    display: flex;
+    
+}
